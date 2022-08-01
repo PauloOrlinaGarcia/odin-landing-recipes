@@ -1,3 +1,40 @@
+.Hedder {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .DaHeaderLogo {
     font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 300px;
+}
+
+.Sec_Link_Text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.DaHeaderLogo, .listahan {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.listahan {
+    padding-right: 300px;
 }
